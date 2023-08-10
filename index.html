@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame">
+    <script src="assets/js/aframe-master.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky src="assets/images/bgphoto.jpg" rotation="0 -130 0"></a-sky>
+
+      <!-- <a-text font="kelsonsans" value="Indian Hair" width="6" position="-2.5 0.25 -1.5"
+              rotation="0 15 0"></a-text> -->
+
+
+      <a-assets>
+        <a-mixin id="title"
+          text="align: center; width: 6;
+               value: Indian Hair"
+        ></a-mixin>
+         <a-mixin id="line1"
+          text="align: center; width: 6;
+               value: come morning, my hair tighten and wound themselves"
+        ></a-mixin>
+         <a-mixin id="line2"
+          text="align: center; width: 6;
+               value: to fit into thin braids, knitted in elaborate dos"
+        ></a-mixin>
+         <a-mixin id="line3"
+          text="align: center; width: 6;
+               value: wince in discomfort before accepting their fate"
+        ></a-mixin>
+         <a-mixin id="line4"
+          text="align: center; width: 6;
+               value: sit like dutiful nationals -– head down"
+        ></a-mixin>
+         <a-mixin id="line5"
+          text="align: center; width: 6;
+               value: and ears twitching in wait"
+        ></a-mixin>
+        <a-mixin id="line6"
+          text="align: center; width: 6;
+               value: of liberation."
+        ></a-mixin>
+
+        <a-mixin id="line7"
+          text="align: center; width: 6;
+               value: deprived of nutrition and moisture, my hair is inundated"
+        ></a-mixin>
+        <a-mixin id="line8"
+          text="align: center; width: 6;
+               value: by bands of settlers 	—	scattered	 specks of white."
+        ></a-mixin>
+        <a-mixin id="line9"
+          text="align: center; width: 6;
+               value: infiltrating my scalp, they stick to their posts"
+        ></a-mixin>
+        <a-mixin id="line10"
+          text="align: center; width: 6;
+               value: tucked away yet ever-present, coaxing me"
+        ></a-mixin>
+        <a-mixin id="line11"
+          text="align: center; width: 6;
+               value: to tear into them, to little avail."
+        ></a-mixin>
+
+
+        <a-mixin id="line12"
+          text="align: center; width: 6;
+               value: over the day, my hair sways	 with the wind, taking pride"
+        ></a-mixin>
+        <a-mixin id="line13"
+          text="align: center; width: 6;
+               value: in its small victories, escaping in clusters, gathering"
+        ></a-mixin>
+        <a-mixin id="line14"
+          text="align: center; width: 6;
+               value: together in peaceful protest, ballooning upwards with "
+        ></a-mixin>
+
+  
+        
+
+
+
+      </a-assets>
+
+      <a-text mixin="title" position="-3 5 0" wrap-count="80"></a-text>
+      <a-text mixin="line1" position="-3 4.5 0" wrap-count="70"></a-text>
+      <a-text mixin="line2" position="-3 4 0" wrap-count="60"></a-text>
+      <a-text mixin="line3" position="-3 3.5 0" wrap-count="50"></a-text>
+      <a-text mixin="line4" position="-3 3 0" wrap-count="40"></a-text>
+      <a-text mixin="line5" position="-3 2.5 0" wrap-count="30"></a-text>
+      <a-text mixin="line6" position="-3 2 0" wrap-count="20"></a-text>
+
+      <a-text mixin="line7" position="1.5 2 0" wrap-count="80"></a-text>
+      <a-text mixin="line8" position="1.5 1.5 0" wrap-count="70"></a-text>
+      <a-text mixin="line9"  position="1.5 1 0" wrap-count="60"></a-text>
+      <a-text mixin="line10"  position="1.5 0.5 0" wrap-count="50"></a-text>
+      <a-text mixin="line11"  position="1.5 0 0" wrap-count="40"></a-text>
+
+      <a-text mixin="line12" position="6 0 0" wrap-count="80"></a-text>
+      <a-text mixin="line13" position="6 -0.5 0" wrap-count="70"></a-text>
+      <a-text mixin="line14"  position="6 -1 0" wrap-count="60"></a-text>
+      <a-text mixin="line10"  position="6 -1.5 0" wrap-count="50"></a-text>
+      <a-text mixin="line11"  position="6 -2 0" wrap-count="40"></a-text>
+     
+      
+
+      <a-entity position="0 2 3.7">
+        <a-entity camera look-controls wasd-controls></a-entity>
+      </a-entity>
+    </a-scene>
+
+    
+  </body>
+</html>
